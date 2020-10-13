@@ -21,7 +21,8 @@ sed -i '$a src-git openclash https://github.com/vernesong/OpenClash' feeds.conf.
 sed -i '$a src-git passwall  https://github.com/ylqjgm/luci-app-passwall' feeds.conf.default
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 
-git clone https://github.com/rufengsuixing/luci-app-adguardhome package/
-git clone https://github.com/jerrykuku/lua-maxminddb package/
-git clone https://github.com/jerrykuku/luci-app-vssr package/
+git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
+git clone https://github.com/jerrykuku/lua-maxminddb package/lua-maxminddb
+git clone https://github.com/maxlicheng/luci-app-ssr-plus package/luci-app-ssr-plus
 
+#git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
