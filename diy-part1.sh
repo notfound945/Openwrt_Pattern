@@ -24,5 +24,8 @@ sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.de
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 git clone https://github.com/jerrykuku/lua-maxminddb package/lua-maxminddb
 git clone https://github.com/maxlicheng/luci-app-ssr-plus package/luci-app-ssr-plus
+git clone https://github.com/pymumu/smartdns package/smartdns
+git clone https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
+git clone https://github.com/openwrt-develop/luci-app-koolproxy package/luci-app-koolproxy
 
 #git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
