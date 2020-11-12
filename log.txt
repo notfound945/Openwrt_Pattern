@@ -1,0 +1,24 @@
+<1>
+dnsforwarder-6.1.15.tar.gz: Download from https://github.com/holmium/dnsforwarder.git failed
+dnsforwarder-6.1.15.tar.gz: Requires sha256sum for verification
+Checking out files from the git repository...
+Cloning into 'dnsforwarder-6.1.15'...
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/holmium/dnsforwarder.git/'
+
+<2>
+WARNING: Makefile 'package/feeds/liuran001_packages/luci-app-atinout/Makefile' has a dependency on 'atinout', which does not exist
+WARNING: Makefile 'package/feeds/liuran001_packages/luci-app-vssr-plus/Makefile' has a dependency on 'udpspeeder', which does not exist
+
+<3>
+Collected errors:
+Configuring strongswan-mod-stroke.
+ * check_data_file_clashes: Package luci-app-passwall-plus wants to install file /workdir/openwrt/build_dir/target-x86_64_musl/root-x86/etc/config/passwall
+	But that file is already provided by package  * luci-app-passwall
+ * check_data_file_clashes: Package luci-app-passwall-plus wants to install file /workdir/openwrt/build_dir/target-x86_64_musl/root-x86/etc/init.d/passwall
+	But that file is already provided by package  * luci-app-passwall
+ * check_data_file_clashes: Package luci-app-passwall-plus wants to install file /workdir/openwrt/build_dir/target-x86_64_musl/root-x86/usr/lib/lua/luci/controller/passwall.lua
+	But that file is already provided by package  * luci-app-passwall
+ * check_data_file_clashes: Package luci-app-passwall-plus wants to install file /workdir/openwrt/build_dir/target-x86_64_musl/root-x86/usr/lib/lua/luci/i18n/passwall.zh-cn.lmo
+	But that file is already provided by package  * luci-app-passwall
+ * opkg_install_cmd: Cannot install package luci-app-passwall-plus.
